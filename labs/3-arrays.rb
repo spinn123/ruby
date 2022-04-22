@@ -15,3 +15,12 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+brians_list = ["beer", "cookies"]
+
+ben_list = ["kale", "tofu"]
+
+shared_list = brians_list + ben_list
+sorted_list = shared_list.sort
+unique_sorted_list = sorted_list.sort
+puts unique_sorted_list
